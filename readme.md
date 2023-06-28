@@ -1,4 +1,4 @@
-  # Vite react-ts + Pico CSS Barebones 
+  # American Hospice Website
 
 For speeding up my frontend architecture
 
