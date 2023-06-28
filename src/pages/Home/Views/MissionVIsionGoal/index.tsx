@@ -7,9 +7,7 @@ import './mvg.styles.scss'
 
 import { SectionWrapper } from '@/hoc'
 
-type Props = {}
-
-const MissionVisionGoal = (props: Props) => {
+const MissionVisionGoal = () => {
     return (
         <section>
             <div className='container'>

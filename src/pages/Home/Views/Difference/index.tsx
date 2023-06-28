@@ -3,13 +3,11 @@ import React from 'react'
 import Heading from '@/components/Heading'
 import SubHeading from '@/components/SubHeading'
 
-type Props = {}
-
 
 import './difference.styles.scss'
 import { SectionWrapper } from '@/hoc'
 
-const Difference = (props: Props) => {
+const Difference = () => {
     return (
         <section id="difference" className='difference'>
             <div className='container'>

@@ -5,9 +5,8 @@ import { MdEmail } from 'react-icons/md';
 import { FaFax, FaMapMarkedAlt } from 'react-icons/fa';
 import TopBannerIconText from './TopBannerIconText';
 
-type Props = {}
 
-const TopBanner = (props: Props) => {
+const TopBanner = () => {
   return (
     <div className='topBanner'>
         <div className="container topBanner__container">

@@ -10,9 +10,8 @@ import './faq.styles.scss'
 // DATA
 import { FAQ as faqdata } from '@/data/faq'
 
-type Props = {}
 
-const FAQ = (props: Props) => {
+const FAQ = () => {
 
     const [open, setOpen] = React.useState<boolean>(false)
 
