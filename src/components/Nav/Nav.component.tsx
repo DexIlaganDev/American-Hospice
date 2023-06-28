@@ -1,6 +1,7 @@
 import React from 'react'
 
 import globalData from '@/data/global'
+import useOpenToggle from '@/hooks/useOpenToggle'
 
 interface ILink {
     title : string
@@ -21,15 +22,21 @@ const links : ILink[] = [
         title : 'Difference',
         link : '#difference',
     },
-    {
-        title : 'Contact',
-        link : '#contact',
-        button : true
-    },
+    // {
+    //     title : 'Contact',
+    //     link : '#contact',
+    //     button : true
+    // },
     
 ]
 
-const Nav = () => {
+
+type Props = {
+    toggleModal : () => void
+}
+
+const Nav = ({toggleModal} : Props) => {
+
     return (
         <div className='container'>
             <nav className='nav-links'>
@@ -42,9 +49,11 @@ const Nav = () => {
                 </ul>
                 <ul>
                     {links.map( (link,index) => <li key={index}><a { ...( link.button && {role : 'button'} ) } href={link.link}>{link.title}</a></li>)}
+
+                    <button className='cta-button' onClick={toggleModal}>Contact</button>
                 </ul>
             </nav>
-        </div>
+        </div>  
         
     )
 }

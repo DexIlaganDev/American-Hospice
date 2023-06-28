@@ -1,0 +1,17 @@
+.cta-button {
+    --red : rgb(228,25,19);
+
+    background-color: var(--red);
+    border-color: var(--red);
+    border-radius: 27px;
+    padding: 1em 2em;
+
+    transition :all 500ms ease-in-out;
+
+    &:hover {
+        background-color: var(--secondary);
+        border-color: var(--secondary);
+    }
+
+    cursor : pointer;
+}

@@ -10,14 +10,21 @@ import FAQ from './Views/FAQ'
 import WhoAreWe from './Views/WhoAreWe'
 import Difference from './Views/Difference'
 import Footer from '@/components/Footer'
+import DialogContact from '@/components/DialogContact'
+import useOpenToggle from '@/hooks/useOpenToggle'
 
-type Props = {}
+const HomePage = () => {
 
-const HomePage = (props: Props) => {
+    const { toggle, toggleClick } = useOpenToggle()
+
+    const toggleModal = () => {
+        toggleClick()
+    }
+
     return (
         <>
             <TopBanner />
-            <Nav />
+            <Nav toggleModal={toggleModal} />
             <Hero />
             <InspiringText />
             <MissionVisionGoal />
@@ -25,6 +32,7 @@ const HomePage = (props: Props) => {
             <WhoAreWe />
             <Difference />
             <Footer />
+            <DialogContact toggle={toggle} toggleModal={toggleModal} />
         </> 
     )
 }
