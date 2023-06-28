@@ -11,10 +11,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { slides } from '@/data/slides';
 
 
-
-type Props = {}
-
-const SliderMVG = (props: Props) => {
+const SliderMVG = () => {
 
     var settings = {
         dots: true,

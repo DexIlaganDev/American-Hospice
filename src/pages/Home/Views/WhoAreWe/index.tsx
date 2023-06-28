@@ -6,9 +6,8 @@ import SubHeading from '@/components/SubHeading'
 
 import './whoweare.styles.scss'
 
-type Props = {}
 
-const WhoAreWe = (props: Props) => {
+const WhoAreWe = () => {
     return (
         <section className='whoweare'>
             <div className='container'>

@@ -8,9 +8,8 @@ import  './inspiringtext.styles.scss'
 // * HOC
 import { SectionWrapper } from '@/hoc'
 
-type Props = {}
 
-const InspiringText = (props: Props) => {
+const InspiringText = () => {
     return (
         <div id="about" className='container inspirationtext'>
             <hgroup>

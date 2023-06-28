@@ -4,9 +4,7 @@ import './hero.styles.scss'
 import Heading from '@/components/Heading'
 import SubHeading from '@/components/SubHeading'
 
-type Props = {}
-
-const Hero = (props: Props) => {
+const Hero = () => {
     return (
         <section className='hero-section'>
             <div className='container'>

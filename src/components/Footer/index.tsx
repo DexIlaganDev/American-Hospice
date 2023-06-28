@@ -6,9 +6,8 @@ import { MdEmail } from 'react-icons/md';
 
 import './footer.styles.scss'
 
-type Props = {}
 
-const Footer = (props: Props) => {
+const Footer = () => {
     return (
         <footer className='footer'>
             <div className="container">
