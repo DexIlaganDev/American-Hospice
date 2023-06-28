@@ -1,0 +1,36 @@
+@import '@/styles/base/breakpoints';
+
+.whoweare {
+
+    @include min-md {
+        padding-block : 3rem;
+    }
+    margin-bottom: 0;
+
+    .team ul {
+        @include min-md {
+            display:flex;
+            flex-direction: row;
+            gap : 4rem;
+        }
+    }
+    
+    .content {
+        @include min-md {
+            display: grid;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+
+    .heart-grid > div {
+
+        @include min-md {
+            max-width: 440px;
+            background-image: url('/images/lovedeserved.jpg');
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+       
+    }
+}

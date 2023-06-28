@@ -1,0 +1,48 @@
+@import '@/styles/base/breakpoints';
+
+.difference {
+
+    padding-block : 1rem;
+
+    @include min-md {
+        padding-block : 5rem;
+    }
+
+    --bg-image : url('/images/bgimage.jpg');
+    --bg-image-opacity : .15;
+
+
+    position:relative;
+    isolation: isolate;
+
+    &::after {
+        position: absolute;
+        content : '';
+
+        opacity : var(--bg-image-opacity);
+        background-image : var(--bg-image);
+
+        inset : 0;
+        z-index: -1;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+
+    text-align: center;
+
+    .content {
+
+        h1,h2 {
+            font-family : var(--font-family-cursive);
+            font-size: 40px;
+            color : var(--secondary);
+        }
+
+        h3 {
+            color : var(--accent);
+        }
+
+    }
+
+}

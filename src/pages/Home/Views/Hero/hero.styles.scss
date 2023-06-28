@@ -1,0 +1,37 @@
+@import '@/styles/base/breakpoints';
+
+.hero-section {
+
+    @include min-md {
+        padding-block : 4rem;
+    }
+
+}
+
+.heart-grid {
+
+    text-align: right;
+
+    > div {
+        max-width: 440px;
+        background-image: url('/images/elderlies.jpg');
+        background-size : contain;
+        background-repeat: no-repeat;
+
+        @include min-md {
+            margin-left: auto;
+        }
+       
+
+        img {
+        
+            @include min-sm {
+                margin-left : auto
+            }
+        }
+
+    }
+    
+    
+
+}
