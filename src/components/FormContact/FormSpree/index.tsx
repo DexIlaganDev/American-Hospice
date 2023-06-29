@@ -4,7 +4,7 @@ import { useForm, ValidationError } from '@formspree/react';
 
 const FormSpree = () => {
 
-    const [state, handleSubmit] = useForm("mvojpbel");
+    const [state, handleSubmit] = useForm(import.meta.env.VITE_FORMSPREE_KEY);
     if (state.succeeded) {
         return <p>Thanks for reaching out!</p>;
     }
