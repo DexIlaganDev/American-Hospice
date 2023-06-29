@@ -3,9 +3,10 @@
 .difference {
 
     padding-block : 1rem;
-
+    margin-bottom: 0;
     @include min-md {
         padding-block : 5rem;
+        
     }
 
     --bg-image : url('/images/bgimage.jpg');

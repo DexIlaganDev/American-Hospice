@@ -11,15 +11,12 @@ const Footer = () => {
     return (
         <footer className='footer'>
             <div className="container">
-                <div className="grid">
+                <div className="flex">
 
                     <div className='grid-logo'>
                         <h3>
-                            <img src='/images/logo-trans.png' />
+                            <img src='/images/logo-trans.png' alt='footer logo' />
                         </h3>
-                        <p>
-                            Copyright 2023, All Rights reserved
-                        </p>
                     </div>
 
 
@@ -53,8 +50,15 @@ const Footer = () => {
                         
                     </div>
 
+                    <div className="grid-approval">
+                        <h3>
+                            <img src='/images/gold_seal.jfif' />
+                        </h3>
+                    </div>
+
                 </div>
             </div>
+            <div className='copyright'>Copyright 2023, All Rights reserved</div>
         </footer>
     )
 }
