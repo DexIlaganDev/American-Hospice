@@ -11,13 +11,13 @@ export const FAQ : IFAQ[] = [
 
     {
         q : 'Who Pays for Hospice Care?',
-        a : 'Hospice care is covered inder Medicare, Medicaid, and most private insurance plans. Hospice may also accept payment from those who are able to self-pay without insurance. We may also rely on assistance coming from donations, grants, gifts and community sources, with the help of our volunteers.'
+        a : 'Hospice care is covered under Medicare, Medicaid, and most private insurance plans. Hospice may also accept payment from those who are able to self-pay without insurance. We may also rely on assistance coming from donations, grants, gifts and community sources, with the help of our volunteers.'
     },
 
 
     {
         q : 'What Services Are Provided to Patients?',
-        a : 'Medical Management<br/>&nbsp;American Hospice Connection provides individualized care plans Hospice for each patient. We provide services from our professional team, as well as medications, durable medical equipment, and medical supplies.<br /><br />Support<br />&nbsp;We provide medical social services, soritual counseling, trained volunteers, on-call services 24/7, and breavement services. We will be there for you.'
+        a : 'Medical Management<br/>&nbsp;American Hospice Connection provides individualized care plans Hospice for each patient. We provide services from our professional team, as well as medications, durable medical equipment, and medical supplies.<br /><br />Support<br />&nbsp;We provide medical social services, spritual counseling, trained volunteers, on-call services 24/7, and breavement services. We will be there for you.'
     },
 
 
@@ -29,7 +29,7 @@ export const FAQ : IFAQ[] = [
 
     {
         q : 'Where are Hospice Services Provided?',
-        a : 'American Hospice Connection takes care of its patients at the comfort of their own homes, or in Assisted Living Facilities, Senior Residential Homesm Board and Cares, and Skilled Nursing Facilities.'
+        a : 'American Hospice Connection takes care of patients at the comfort of their own homes, in Assisted Living Facilities, Senior Residential Homes Board and Care, and Skilled Nursing Facilities.'
     },
 
 ]
